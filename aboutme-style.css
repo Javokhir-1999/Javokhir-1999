@@ -1,0 +1,59 @@
+h4{
+	color: #9a4aa9;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: silver;
+	font-family: Tahoma;
+	color: #4b4c50;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+section{
+	padding:0 0 0 20px;
+	margin: 0 auto;
+}
+.iut{
+	color: #438fef;
+	font-weight: bold;
+}
+h4{
+	border-bottom: 1px solid silver;
+}
+.favorites ul, .mood ul{
+	display: flex;
+}
+.favorites li, .mood li{
+	padding: 10px;
+}
+.favorites img {
+	display: block;
+	max-width: 200px;
+	max-height: 268px;
+}
+.block{
+	display: flex;
+	margin: 10px auto;
+	overflow: hidden;
+} 
+.block>div{
+	border-top: 3px solid #9a4aa9;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.mood img{
+    display: block;
+	max-width: 261px;
+    max-height: 195px;
+}
