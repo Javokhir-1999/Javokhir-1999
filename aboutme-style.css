@@ -57,3 +57,9 @@ h4{
 	max-width: 261px;
     max-height: 195px;
 }
+p::first-letter{
+  font-family: "IBM Plex Mono";
+
+  font-size: 1.5em;
+
+}
